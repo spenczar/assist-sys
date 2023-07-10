@@ -1,0 +1,25 @@
+[package]
+name = "assist-sys"
+version = "0.1.0"
+edition = "2021"
+authors = ["Spencer Nelson"]
+description = "Low-level bindings to the ASSIST orbit propagator"
+repository = "https://github.com/spenczar/assist-sys"
+license = "GPL-3.0-or-later"
+keywords = ["rebound", "astrodynamics", "astronomy"]
+categories = ["aerospace::simulation", "science"]
+links = "assist"
+include = [
+	"vendor/assist/src/*",
+	"vendor/assist/LICENSE",
+	"vendor/assist/README.md",
+	"**/*.rs",
+	"Cargo.toml",
+]
+
+[dependencies]
+rebound-sys = "0.1.1"
+
+[build-dependencies]
+bindgen = "0.66.1"
+cc = "1.0.79"
