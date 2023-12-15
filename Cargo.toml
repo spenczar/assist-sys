@@ -1,6 +1,6 @@
 [package]
 name = "assist-sys"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Spencer Nelson"]
 description = "Low-level bindings to the ASSIST orbit propagator"
