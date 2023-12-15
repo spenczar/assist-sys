@@ -18,7 +18,7 @@ include = [
 ]
 
 [dependencies]
-rebound-sys = "0.1.1"
+rebound-sys = "0.2.0"
 
 [build-dependencies]
 bindgen = "0.66.1"
